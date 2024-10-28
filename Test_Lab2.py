@@ -9,7 +9,7 @@ def test_bmi_over_weight():
     assert result == 1
 
 def test_bmi_under_weight():
-    result = bmi.calculate_bmi(40, 1.73)
+    result = bmi.calcualate_bmi(53, 1.73)
     assert result == -1
 
 print("All test passed!")
