@@ -25,17 +25,16 @@ def calculate_average_salary():
 
     for key in employee_data:
         total += key["salary"]
-        count+=1
-    
+        count+=1   
     average = total / count
     return average
 
 def get_employees_by_dept(department):
     result = []
 
-    # Add your implementation from here
-
-
+    for item in employee_data:
+        if department == item["department"]: 
+            result.append(item)
     return result
 
 def display_all_records():
