@@ -1,6 +1,12 @@
 # Lab 3 - Developing software Test Case
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-- [ ] \(Optional) Open a followup issue
+# Section Heading
+
+Some body text of this section.
+
+<a name="my-custom-anchor-point"></a>
+Some text I want to provide a direct link to, but which doesn't have its own heading.
+
+(… more content…)
+
+[A link to that custom anchor](#my-custom-anchor-point)
